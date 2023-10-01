@@ -29,7 +29,8 @@ Shaun  Pickett
  - <strong>Don't Use SVG's</strong>:  I learned the hard way. Gmail support just isn't there. <br>
  - <strong>Images Need Transparent BG's</strong>: Dark mode is going to happen whether you like it or not. But do not fear, an email provider like Outlook will automatically change the background color's in all of your code. What you have to watch out for is if your referenced images have a transparent background. Your signature needs to be dark and light friendly. 
  - <strong>Use Referenced Images</strong>: Support is very good for referenced images. I have experienced bugs with apple mail however, I haven't been able to replicate them. 
- - <strong>KISS</strong>: Keep it simple stupid. Everytime I introduced complexity I was punished. 
+ - <strong>KISS</strong>: Keep it simple stupid. Everytime I introduced complexity I was punished.
+ - <strong>Tables</strong>: Although support for div's and other tags exist, I wouldn't bother. As far as I know, everything for tables just works. You won't find that comfort with a flexbox div across all email clients. And tables keep the code small so play it safe and use table tags. 
 </p>
 <br>
 <h3>How do I inject my signature into my preferred email client? </h3>
