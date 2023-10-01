@@ -27,7 +27,7 @@ Shaun  Pickett
  - <strong>Stick to a Mobile Version</strong>: Again without safe media queries, you are likely going to have shrinking and font dilation on mobile. Just make a mobile version and be happy it works. <br>
 
  - <strong>Don't Use SVG's</strong>:  I learned the hard way. Gmail support just isn't there. <br>
- - <strong>Images Need Transparent BG's</strong>: Dark mode is going to happen whether you like it or not. But do not fear, an email provider like Outlook will automatically change the background color's in all of your code. What you have to watch out for is if your referenced images have a transparent background. Your signature needs to be dark and light friendly. 
+ - <strong>Images Need Transparent BG's</strong>: Dark mode is going to happen whether you like it or not. But do not fear, an email provider like Outlook will automatically change the background color's in all of your code. What you have to watch out for is if your referenced images have a white background. A white background will obviously clash on a dark mode screen. Ensure all images have a transparent background. 
  - <strong>Use Referenced Images</strong>: Support is very good for referenced images. I have experienced bugs with apple mail however, I haven't been able to replicate them. 
  - <strong>KISS</strong>: Keep it simple stupid. Everytime I introduced complexity I was punished.
  - <strong>Tables</strong>: Although support for div's and other tags exist, I wouldn't bother. As far as I know, everything for tables just works. You won't find that comfort with a flexbox div across all email clients. And tables keep the code small so play it safe and use table tags. 
@@ -35,5 +35,5 @@ Shaun  Pickett
 <br>
 <h3>How do I inject my signature into my preferred email client? </h3>
 
- - <strong>Apple mail</strong>: You can't simply drop and drag into the preferences. Its a whole process, almost like they don't want you to do it. The instructions are simple enough though - https://www.hubspot.com/email-signature-generator/add-html-signature-mail-mac#:~:text=Open%20Apple%20Mail%20on%20your,click%20the%20%E2%80%9C%2B%E2%80%9D%20button. 
+ - <strong>Apple mail</strong>: You can't simply drop and drag into the preferences. Its a whole process, almost like they don't want you to do it. The steps are simple enough though - https://www.hubspot.com/email-signature-generator/add-html-signature-mail-mac#:~:text=Open%20Apple%20Mail%20on%20your,click%20the%20%E2%80%9C%2B%E2%80%9D%20button. 
  - <strong>Gmail</strong>: My method was to install the chrome extension <i>Insert HTML by Designmodo</i>. This nifty little tool adds a html feature that allows you to copy and paste your code into the gmail suite signature box. 
