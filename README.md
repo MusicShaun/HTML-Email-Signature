@@ -1,39 +1,37 @@
 
+#  Boost your email swag with <span style="color: #f4a301;">HTML  Signatures</span>
 
-<h2 align='center' color='#f4a301;'>
-Shaun  Pickett
-</h2>
-<h1 align='center'> HTML Email Signatures  </h1>
+Tired of your email signature looking as dull as dishwater?
+ Your signature is your personal brand statement. And HTML email signatures are your ticket to adding a dash of personality to your emails
 
-<div style='display: flex; gap:0'>
-<img src='https://res.cloudinary.com/dyneqi48f/image/upload/v1696125706/light-mode-signature_c50rry.png' 
-  alt='' width='48%'/>
-<img src='https://res.cloudinary.com/dyneqi48f/image/upload/v1696125706/dark-mode-signature_pidmq5.png' 
-  alt='' width='48%'/>
-</div>
+But here's the catch - crafting a HTML email signature is a nightmare. There are compatibility quirks, design challenges, and no support from the big email providers. This readMe is a quick overview of the important lessons I learned and the pitfalls to avoid. 
 
-<h3>HTML email signatures look great but theres an abundance of compatibility and support issues.  </h3>
+<div style="display: flex; gap: 10px;">  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696125706/light-mode-signature_c50rry.png" alt="" width="48%" />  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696125706/dark-mode-signature_pidmq5.png" alt="" width="48%" />  </div>
 
-<p>Why isn't html signature support uniform across all the email giants?
-  For example, where Apple mail supports SVG's, gmail doesn't. 
-  Where some providers strip the head out of the code and others don't. <br>
-  Why is HTML email support so flimsy? I don't know. What I do know is a few do's and donts after strumbling my way through my own design. 
-  <br>
-  <br> 
-  <h2>Things that will save you time. </h2>
 
- - <strong>Don't Use Media Queries</strong>: Save yourself the headache. Usually, they don't work at all, but when they do, parts won't work in all email browsers. <br> 
 
- - <strong>Stick to a Mobile Version</strong>: Again without safe media queries, you are likely going to have shrinking and font dilation on mobile. Just make a mobile version and be happy it works. <br>
+## Things that will save you time:
 
- - <strong>Don't Use SVG's</strong>:  I learned the hard way. Gmail support just isn't there. <br>
- - <strong>Images Need Transparent BG's</strong>: Dark mode is going to happen whether you like it or not. But do not fear, an email provider like Outlook will automatically change the background color's in all of your code. What you have to watch out for is if your referenced images have a white background. A white background will obviously clash on a dark mode screen. Ensure all images have a transparent background. 
- - <strong>Use Referenced Images</strong>: Support is very good for referenced images. I have experienced bugs with apple mail however, I haven't been able to replicate them. 
- - <strong>KISS</strong>: Keep it simple stupid. Everytime I introduced complexity I was punished.
- - <strong>Tables</strong>: Although support for div's and other tags exist, I wouldn't bother. As far as I know, everything for tables just works. You won't find that comfort with a flexbox div across all email clients. And tables keep the code small so play it safe and use table tags. 
-</p>
+- **Don't Use Media Queries**: They often don't work across all email clients.
+- **Stick to a Mobile Version**: Without reliable media query support, design a separate mobile version.
+- **Don't Use SVGs**: Gmail has limited support for SVG images.
+- **Images Need Transparent Backgrounds**: Ensure your images have transparent backgrounds to accommodate dark mode. A white backgrounded image will be email suicide at night time. 
+- **Use Referenced Images**: Support for referenced images is generally good. ie: /<*img src="link" />* 
+- **KISS (Keep it Simple, Stupid)**: Complexity will lead to headaches.
+- **Tables**: Tables are the standard for compatibility.
+
 <br>
-<h3>How do I inject my signature into my preferred email client? </h3>
 
- - <strong>Apple mail</strong>: You can't simply drop and drag into the preferences. Its a whole process, almost like they don't want you to do it. The steps are simple enough though - https://www.hubspot.com/email-signature-generator/add-html-signature-mail-mac#:~:text=Open%20Apple%20Mail%20on%20your,click%20the%20%E2%80%9C%2B%E2%80%9D%20button. 
- - <strong>Gmail</strong>: My method was to install the chrome extension <i>Insert HTML by Designmodo</i>. This nifty little tool adds a html feature that allows you to copy and paste your code into the gmail suite signature box. 
+## How to Inject Your Signature into Apple, Gmail & Outlook
+
+### Apple Mail:
+You can't simply drag and drop into the signature box in preferences. Follow these [instructions](https://www.hubspot.com/email-signature-generator/add-html-signature-mail-mac).
+
+### Gmail: 
+Install the Chrome extension *"[Insert HTML by Designmodo](https://chrome.google.com/webstore/detail/insert-html-by-designmodo/bcflbfdlpegakpncdgmejelcolhmfkjh)"* to copy and paste your HTML code into Gmail's signature box.
+
+### Outlook: 
+Install the Microsoft extension *"[Insert HTML by Designmodo](https://appsource.microsoft.com/en-us/product/office/wa200002918?tab=overview)"* to copy and paste your HTML code into Outlook signature box.
+
+
+Note: With both Outlook and Gmail, the extension adds a little mailbox icon to the signature boxes toolbar. Click on that and a window will open to allow the copy/paste of html code. 
