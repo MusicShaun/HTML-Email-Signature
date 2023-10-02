@@ -2,7 +2,7 @@
 #  Boost your email swag with <span style="color: #f4a301;">HTML  Signatures</span>
 
 
-
+<br>
 
 <div style="display: flex; gap: 10px;">  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696206996/email-signature-light.html_j3eacs.png" alt="" width="48%" />  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696206755/email-signature-dark.html_cyegte.png" alt="" width="48%" />  </div>
 
@@ -13,7 +13,7 @@ But here's the catch - crafting a HTML email signature is a nightmare. There are
 
 <br> 
 
-
+<br>
 
 
 ## Things that will save you time:
