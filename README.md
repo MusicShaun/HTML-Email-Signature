@@ -13,7 +13,7 @@ But here's the catch - crafting a HTML email signature is a nightmare. There are
 ## Things that will save you time:
 
 - **Don't Use Media Queries**: They often don't work across all email clients.
-- **Stick to a Mobile Version**: Without reliable media query support, design a separate mobile version.
+- **Stick to a Mobile Version**: Without reliable media query support, stick to a mobile version.
 - **Don't Use SVGs**: Gmail has limited support for SVG images.
 - **Images Need Transparent Backgrounds**: Ensure your images have transparent backgrounds to accommodate dark mode. A white backgrounded image will be email suicide at night time. 
 - **Use Referenced Images**: Support for referenced images is generally good. ie: /<*img src="link" />* 
@@ -35,3 +35,8 @@ Install the Microsoft extension *"[Insert HTML by Designmodo](https://appsource.
 
 
 Note: With both Outlook and Gmail, the extension adds a little mailbox icon to the signature boxes toolbar. Click on that and a window will open to allow the copy/paste of html code. 
+<br> <br> 
+## Ready to make your own? Read these 2 first 
+This article is amazing - [The 17 DOs and DON’Ts of email signatures](https://exclaimer.com/email-signature-handbook/the-17-email-signature-dos-and-donts/) 
+<br> 
+And these wonderful people have amalgamated every CSS types compatibility with email browsers.  [The Ultimate Guide to CSS](https://exclaimer.com/email-signature-handbook/using-the-right-email-signature-size/) 
