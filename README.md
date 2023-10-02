@@ -1,12 +1,18 @@
 
 #  Boost your email swag with <span style="color: #f4a301;">HTML  Signatures</span>
 
-Tired of your email signature looking as dull as dishwater?
- Your signature is your personal brand statement. And HTML email signatures are your ticket to adding a dash of personality to your emails
 
-But here's the catch - crafting a HTML email signature is a nightmare. There are compatibility quirks, design challenges, and no support from the big email providers. This readMe is a quick overview of the important lessons I learned and the pitfalls to avoid. 
+
 
 <div style="display: flex; gap: 10px;">  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696206996/email-signature-light.html_j3eacs.png" alt="" width="48%" />  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696206755/email-signature-dark.html_cyegte.png" alt="" width="48%" />  </div>
+
+Tired of your email signature looking as dull as dishwater?
+ Your signature is your personal brand statement. And HTML email signatures are your ticket to adding a dash of personality to your emails
+But here's the catch - crafting a HTML email signature is a nightmare. There are compatibility quirks, design challenges, and no support from the big email providers. This readMe is a quick overview of the important lessons I learned and the pitfalls to avoid. 
+
+
+<br> 
+
 
 
 
