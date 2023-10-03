@@ -23,6 +23,7 @@ Crafting a HTML email signature is a nightmare. There are compatibility quirks, 
 - **Use Referenced Images**: Support for referenced images is generally good. ie: /<*img src="link" />* 
 - **KISS (Keep it Simple, Stupid)**: Complexity will lead to headaches.
 - **Tables**: Tables are the standard for compatibility.
+- **Read The Ultimate Guide to CSS & Email linked below** 
 
 <br>
 
