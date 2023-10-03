@@ -6,9 +6,7 @@
 
 <div style="display: flex; gap: 10px;">  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696206996/email-signature-light.html_j3eacs.png" alt="" width="48%" />  <img src="https://res.cloudinary.com/dyneqi48f/image/upload/v1696206755/email-signature-dark.html_cyegte.png" alt="" width="48%" />  </div>
 
-Tired of your email signature looking as dull as dishwater?
- Your signature is your personal brand statement. And HTML email signatures are your ticket to adding a dash of personality to your emails
-But here's the catch - crafting a HTML email signature is a nightmare. There are compatibility quirks, design challenges, and no support from the big email providers. This readMe is a quick overview of the important lessons I learned and the pitfalls to avoid. 
+Crafting a HTML email signature is a nightmare. There are compatibility quirks, design challenges, and no support from the big email providers. This readMe is a quick overview of the important lessons I learned and the pitfalls to avoid. Be very strict unless you are happy to waste some time. 
 
 
 <br> 
@@ -31,7 +29,7 @@ But here's the catch - crafting a HTML email signature is a nightmare. There are
 ## How to Inject Your Signature into Apple, Gmail & Outlook
 
 ### Apple Mail:
-You can't simply drag and drop into the signature box in preferences. Follow these [instructions](https://www.hubspot.com/email-signature-generator/add-html-signature-mail-mac).
+One does not simply drag and drop an HTML signature into apple preferences. Follow these [instructions](https://www.hubspot.com/email-signature-generator/add-html-signature-mail-mac).
 
 ### Gmail: 
 Install the Chrome extension *"[Insert HTML by Designmodo](https://chrome.google.com/webstore/detail/insert-html-by-designmodo/bcflbfdlpegakpncdgmejelcolhmfkjh)"* to copy and paste your HTML code into Gmail's signature box.
@@ -40,10 +38,10 @@ Install the Chrome extension *"[Insert HTML by Designmodo](https://chrome.google
 Install the Microsoft extension *"[Insert HTML by Designmodo](https://appsource.microsoft.com/en-us/product/office/wa200002918?tab=overview)"* to copy and paste your HTML code into Outlook signature box.
 
 
-Note: With both Outlook and Gmail, the extension adds a little mailbox icon to the signature boxes toolbar. Click on that and a window will open to allow the copy/paste of html code. 
+Note: With both Outlook and Gmail, the extension adds a little mailbox icon to the signature boxes toolbar. Click the icon and a popup will open to allow the copy/paste of html code. 
 
 <br> <br> 
 
-## Ready to make your own? Read these 2 first 
+## Ready to make your own? These 2 pages are a must read  
 + [The 17 DOs and DON’Ts of email signatures](https://exclaimer.com/email-signature-handbook/the-17-email-signature-dos-and-donts/) 
 + [The Ultimate Guide to CSS and Email compatibility](https://exclaimer.com/email-signature-handbook/using-the-right-email-signature-size/) 
