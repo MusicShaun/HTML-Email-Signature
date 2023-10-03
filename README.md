@@ -45,4 +45,4 @@ Note: With both Outlook and Gmail, the extension adds a little mailbox icon to t
 
 ## Ready to make your own? These 2 pages are a must read  
 + [The 17 DOs and DON’Ts of email signatures](https://exclaimer.com/email-signature-handbook/the-17-email-signature-dos-and-donts/) 
-+ [The Ultimate Guide to CSS and Email compatibility](https://exclaimer.com/email-signature-handbook/using-the-right-email-signature-size/) 
++ [The Ultimate Guide to CSS and Email compatibility](https://www.campaignmonitor.com/css/) 
